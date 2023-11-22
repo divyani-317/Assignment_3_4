@@ -1,0 +1,60 @@
+/* Author: DIVYANI - 895317 */
+
+#container {
+    width: 1000px;
+    height: 500px;
+    background-color: #e7e3e3;
+}
+
+header {
+    height: 200px;
+    background-color: #7777a1;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#main {
+    padding: 50px;
+    text-align: center;
+}
+
+#from-inp, #to-inp {
+    width: 300px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.input-block {
+    display: inline-grid;
+    text-align: left;
+}
+
+#arrows {
+    font-size: 40px;
+}
+
+.inp-lbl, #convert-btn {
+    font-size: 20px;
+}
+
+#convert-btn {
+     border-radius: 50%;
+     width: 128px;
+     height: 60px;
+     margin: 40px;
+     float: right;
+}
+
+#from-select, #to-select {
+    height: 60px;
+    font-size: 20px;
+}
+
+.big-font {
+ font-size: 40px;
+}
+
+.small-font {
+ font-size: 25px;
+}
