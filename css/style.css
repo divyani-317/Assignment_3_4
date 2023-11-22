@@ -6,6 +6,7 @@
     background-color: #e7e3e3;
 }
 
+/* main header styles */
 header {
     height: 200px;
     background-color: #7777a1;
@@ -19,6 +20,7 @@ header {
     text-align: center;
 }
 
+/* Input styles */
 #from-inp, #to-inp {
     width: 300px;
     height: 55px;
@@ -30,14 +32,17 @@ header {
     text-align: left;
 }
 
+/* Arrow button styles */
 #arrows {
     font-size: 40px;
 }
 
+/* Input and button styles */
 .inp-lbl, #convert-btn {
     font-size: 20px;
 }
 
+/* Submit button styles */
 #convert-btn {
      border-radius: 50%;
      width: 128px;
@@ -46,6 +51,7 @@ header {
      float: right;
 }
 
+/* Dropdown styles */
 #from-select, #to-select {
     height: 60px;
     font-size: 20px;

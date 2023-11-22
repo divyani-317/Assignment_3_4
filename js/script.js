@@ -1,5 +1,6 @@
 // Author: DIVYANI - 895317
 
+// Functionality: toggles the placeholder on the text inputs
 function TogglePlaceholders(type){
     let selectedVal = document.getElementById(type + "-select").value;
     if(selectedVal == "cad") {
@@ -10,12 +11,15 @@ function TogglePlaceholders(type){
     }
 }
 
+// Functionality: Pass parameters to the main function
 function ConvertAmount() {
    let fromCurrency = document.getElementById("from-select").value;
    let toCurrency = document.getElementById("to-select").value;
    document.getElementById("to-inp").value = ConvertedAmount(fromCurrency, toCurrency) ;
 }
 
+// Functionality: main calculation
+// Return: value as a result
 let ConvertedAmount =  function(fromCurrency, toCurrency){
    let fromVal = document.getElementById("from-inp").value;
    const currencyRate = 0.73;
@@ -34,6 +38,7 @@ let ConvertedAmount =  function(fromCurrency, toCurrency){
    return result.toFixed(2);
 }
 
+// Functionality: arrow click functionality
 function swapSelection() {
    let fromCurrency = document.getElementById("from-select").value;
    let toCurrency = document.getElementById("to-select").value;
